@@ -23,7 +23,7 @@ body.fade-out {
 }
 
 /* Heading 1 elements */
-h1 {
+h1,h2 {
     text-transform: uppercase; /*capitalizing all h1 headings */
     font-family: "Trebuchet MS", Optima; /* Sets the font family of all h1 headings */
     text-align: center; /* Centering all h1 elements */
@@ -32,7 +32,7 @@ h1 {
 }
 
 /* Heading 1 element hover effect */
-h1:hover {
+h1,h2:hover {
     filter: grayscale(5%); /* Adds a slightly gray filter to the h1 headings when hovered over */
     transform: scale(1.1); /* When the h1 elements are hovered over they increase in size by 1.1 */
     transition: transform 1s; /* This causes the transformation to last 1 second */
